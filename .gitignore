@@ -1,0 +1,26 @@
+# Claude Code local settings
+.claude/
+
+# Simulation outputs
+build/
+*.vcd
+*.vvp
+
+# Vivado outputs (reports/ is committed once a real run exists)
+vivado/
+.Xil/
+*.jou
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Vendored core is a submodule, not tracked contents
+vendor/ibex/
+
+# macOS
+.DS_Store
+
+# Private planning notes (build guide is not committed)
+docs/ResumeD_Security_Build_Guide.pdf
